@@ -1,0 +1,11 @@
+{
+  "orders_total": 0,
+  "fills_total": 0,
+  "orders_invalid_dropped": 0,
+  "fills_invalid_dropped": 0,
+  "feature_count": 13,
+  "coverage_start": "2025-08-19T04:35:00+00:00",
+  "coverage_end": "2026-05-10T18:45:00+00:00",
+  "latest_fill_rate_1h": 0.0,
+  "latest_cancel_rate_1h": 0.0
+}

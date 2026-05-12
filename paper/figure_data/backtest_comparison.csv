@@ -1,0 +1,5 @@
+metric,display_label,ml_value,fixed_value
+total_return_pct,Return %,-0.007,-0.029
+sharpe_ratio,Sharpe,-0.616,-0.529
+max_drawdown_pct,Max DD %,-0.054,-0.276
+total_trades,Trades,79.0,57.0

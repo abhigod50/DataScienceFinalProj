@@ -1,0 +1,4 @@
+binanceus_maker_percent_fee: 0.16
+binanceus_taker_percent_fee: 0.26
+kraken_maker_percent_fee: 0.16
+kraken_taker_percent_fee: 0.26

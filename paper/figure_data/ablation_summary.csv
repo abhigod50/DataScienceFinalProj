@@ -1,0 +1,6 @@
+label,direction_auc,volatility_r2
+baseline,0.806,-0.1873
+pruned_features,0.8064,-0.1864
+sol_cross_asset,0.8058,-0.1888
+lightgbm,0.8062,0.4409
+xgb_lgb_ensemble,0.8066,0.2749

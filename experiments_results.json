@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-05-10T19:57:24.306524+00:00",
+  "baseline": {
+    "label": "baseline",
+    "feature_count": 101,
+    "direction_auc": 0.806,
+    "direction_accuracy": 0.7239,
+    "volatility_mae": 0.003051,
+    "volatility_r2": -0.1873,
+    "volatility_corr": 0.347
+  },
+  "comparisons": [
+    {
+      "group": "feature_set",
+      "label": "pruned_features",
+      "feature_count": 93,
+      "direction_auc": 0.8064,
+      "direction_accuracy": 0.7246,
+      "volatility_mae": 0.003051,
+      "volatility_r2": -0.1864,
+      "volatility_corr": 0.3498
+    },
+    {
+      "group": "feature_set",
+      "label": "sol_cross_asset",
+      "feature_count": 108,
+      "direction_auc": 0.8058,
+      "direction_accuracy": 0.7214,
+      "volatility_mae": 0.003055,
+      "volatility_r2": -0.1888,
+      "volatility_corr": 0.3472
+    },
+    {
+      "group": "model_family",
+      "label": "lightgbm",
+      "feature_count": 101,
+      "direction_auc": 0.8062,
+      "direction_accuracy": 0.7253,
+      "volatility_mae": 0.001744,
+      "volatility_r2": 0.4409,
+      "volatility_corr": 0.6679
+    },
+    {
+      "group": "horizon",
+      "label": "horizon_3",
+      "horizon_candles": 3,
+      "feature_count": 101,
+      "direction_auc": 0.7829,
+      "direction_accuracy": 0.7075
+    },
+    {
+      "group": "horizon",
+      "label": "horizon_6",
+      "horizon_candles": 6,
+      "feature_count": 101,
+      "direction_auc": 0.8016,
+      "direction_accuracy": 0.7171
+    },
+    {
+      "group": "horizon",
+      "label": "horizon_12",
+      "horizon_candles": 12,
+      "feature_count": 101,
+      "direction_auc": 0.7634,
+      "direction_accuracy": 0.6821
+    },
+    {
+      "group": "target_definition",
+      "label": "three_class_direction",
+      "feature_count": 101,
+      "direction_auc": 0.8156,
+      "direction_accuracy": 0.5941,
+      "three_class_accuracy": 0.5941,
+      "up_auc": 0.8156
+    },
+    {
+      "group": "ensemble",
+      "label": "xgb_lgb_ensemble",
+      "feature_count": 101,
+      "direction_auc": 0.8066,
+      "direction_accuracy": 0.7246,
+      "volatility_mae": 0.002263,
+      "volatility_r2": 0.2749,
+      "volatility_corr": 0.654
+    },
+    {
+      "group": "volatility_objective",
+      "label": "quantile_volatility_q75",
+      "feature_count": 101,
+      "volatility_mae": 0.00209,
+      "volatility_pinball_loss": 0.000767,
+      "volatility_coverage": 0.7773,
+      "baseline_coverage": 0.8004
+    }
+  ],
+  "headline_findings": [
+    "Best direction AUC: three_class_direction (0.8156)",
+    "Best volatility R2: lightgbm (0.4409)",
+    "Quantile coverage at q=0.75: 0.7773"
+  ]
+}

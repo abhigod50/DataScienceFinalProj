@@ -1,0 +1,119 @@
+{
+  "ml_metrics": {
+    "label": "ML Market Maker",
+    "total_return_pct": -0.007,
+    "sharpe_ratio": -0.616,
+    "max_drawdown_pct": -0.054,
+    "total_trades": 79,
+    "buys": 41,
+    "sells": 38,
+    "total_fees_usd": 1.68,
+    "execution_penalty_usd": 0.62,
+    "avg_fill_ratio": 0.379,
+    "final_portfolio_usd": 9999.33,
+    "avg_inventory_usd": 45.8,
+    "regime_breakdown": {
+      "2": {
+        "regime_id": 2,
+        "candles": 304,
+        "trades": 27,
+        "buys": 27,
+        "sells": 0,
+        "notional_usd": 408.37,
+        "fees_usd": 0.6534,
+        "penalty_usd": 0.2086,
+        "trade_rate": 0.0888,
+        "mean_stress": 1.0,
+        "mean_trend_score": 0.0744,
+        "mean_dir_proba": 0.5,
+        "model_accuracy": null,
+        "model_predictions": 0,
+        "avg_signed_return_bps": -1.6066
+      },
+      "3": {
+        "regime_id": 3,
+        "candles": 853,
+        "trades": 37,
+        "buys": 2,
+        "sells": 35,
+        "notional_usd": 504.56,
+        "fees_usd": 0.8073,
+        "penalty_usd": 0.336,
+        "trade_rate": 0.0434,
+        "mean_stress": 0.6667,
+        "mean_trend_score": -0.5046,
+        "mean_dir_proba": 0.5,
+        "model_accuracy": null,
+        "model_predictions": 0,
+        "avg_signed_return_bps": 2.0745
+      },
+      "0": {
+        "regime_id": 0,
+        "candles": 1282,
+        "trades": 6,
+        "buys": 6,
+        "sells": 0,
+        "notional_usd": 43.27,
+        "fees_usd": 0.0692,
+        "penalty_usd": 0.0382,
+        "trade_rate": 0.0047,
+        "mean_stress": 0.0,
+        "mean_trend_score": 0.1056,
+        "mean_dir_proba": 0.5,
+        "model_accuracy": null,
+        "model_predictions": 0,
+        "avg_signed_return_bps": -0.7462
+      },
+      "1": {
+        "regime_id": 1,
+        "candles": 2904,
+        "trades": 9,
+        "buys": 6,
+        "sells": 3,
+        "notional_usd": 90.84,
+        "fees_usd": 0.1453,
+        "penalty_usd": 0.0369,
+        "trade_rate": 0.0031,
+        "mean_stress": 0.3333,
+        "mean_trend_score": -0.1484,
+        "mean_dir_proba": 0.5,
+        "model_accuracy": null,
+        "model_predictions": 0,
+        "avg_signed_return_bps": -0.9839
+      }
+    }
+  },
+  "fixed_metrics": {
+    "label": "Fixed Spread",
+    "total_return_pct": -0.029,
+    "sharpe_ratio": -0.529,
+    "max_drawdown_pct": -0.276,
+    "total_trades": 57,
+    "buys": 35,
+    "sells": 22,
+    "total_fees_usd": 3.46,
+    "execution_penalty_usd": 1.67,
+    "avg_fill_ratio": 0.38,
+    "final_portfolio_usd": 9997.1,
+    "avg_inventory_usd": 237.31
+  },
+  "test_period": {
+    "start": "2026-04-22 05:35:00+00:00",
+    "end": "2026-05-10 18:45:00+00:00",
+    "candles": 5343
+  },
+  "ml_spread_stats": {
+    "avg_bid": 0.2566,
+    "avg_ask": 0.2202,
+    "std_bid": 0.0433,
+    "std_ask": 0.0009
+  },
+  "execution_profile": {
+    "order_levels": 2,
+    "order_level_spread_step_pct": 0.06,
+    "min_order_amount_usd": 20.0,
+    "max_order_amount_usd": 70.0,
+    "uses_confidence_sizing": true,
+    "model_post_calibrated": true
+  }
+}

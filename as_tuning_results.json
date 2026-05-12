@@ -1,0 +1,104 @@
+{
+  "baseline_metrics": {
+    "sharpe_ratio": -0.0201,
+    "max_drawdown_pct": -0.2677,
+    "total_return_pct": -0.0019,
+    "total_trades": 267
+  },
+  "candidates_tested": 48,
+  "best_params": {
+    "high_thresh": 0.65,
+    "spread_mult_strength": 0.25,
+    "size_mult_strength": 0.3
+  },
+  "best_metrics": {
+    "sharpe_ratio": 1.693,
+    "max_drawdown_pct": -0.2507,
+    "total_return_pct": 0.1157,
+    "total_trades": 234
+  },
+  "best_delta_sharpe": 1.7131,
+  "best_delta_drawdown": 0.017,
+  "top5_by_composite": [
+    {
+      "params": {
+        "high_thresh": 0.65,
+        "spread_mult_strength": 0.25,
+        "size_mult_strength": 0.3
+      },
+      "metrics": {
+        "sharpe_ratio": 1.693,
+        "max_drawdown_pct": -0.2507,
+        "total_return_pct": 0.1157,
+        "total_trades": 234
+      },
+      "delta_sharpe": 1.7131,
+      "delta_drawdown": 0.017,
+      "composite_score": 1.701
+    },
+    {
+      "params": {
+        "high_thresh": 0.65,
+        "spread_mult_strength": 0.25,
+        "size_mult_strength": 0.45
+      },
+      "metrics": {
+        "sharpe_ratio": 1.693,
+        "max_drawdown_pct": -0.2507,
+        "total_return_pct": 0.1157,
+        "total_trades": 234
+      },
+      "delta_sharpe": 1.7131,
+      "delta_drawdown": 0.017,
+      "composite_score": 1.701
+    },
+    {
+      "params": {
+        "high_thresh": 0.75,
+        "spread_mult_strength": 0.25,
+        "size_mult_strength": 0.3
+      },
+      "metrics": {
+        "sharpe_ratio": 1.693,
+        "max_drawdown_pct": -0.2507,
+        "total_return_pct": 0.1157,
+        "total_trades": 234
+      },
+      "delta_sharpe": 1.7131,
+      "delta_drawdown": 0.017,
+      "composite_score": 1.701
+    },
+    {
+      "params": {
+        "high_thresh": 0.75,
+        "spread_mult_strength": 0.25,
+        "size_mult_strength": 0.45
+      },
+      "metrics": {
+        "sharpe_ratio": 1.693,
+        "max_drawdown_pct": -0.2507,
+        "total_return_pct": 0.1157,
+        "total_trades": 234
+      },
+      "delta_sharpe": 1.7131,
+      "delta_drawdown": 0.017,
+      "composite_score": 1.701
+    },
+    {
+      "params": {
+        "high_thresh": 0.85,
+        "spread_mult_strength": 0.25,
+        "size_mult_strength": 0.3
+      },
+      "metrics": {
+        "sharpe_ratio": 1.693,
+        "max_drawdown_pct": -0.2507,
+        "total_return_pct": 0.1157,
+        "total_trades": 234
+      },
+      "delta_sharpe": 1.7131,
+      "delta_drawdown": 0.017,
+      "composite_score": 1.701
+    }
+  ]
+}

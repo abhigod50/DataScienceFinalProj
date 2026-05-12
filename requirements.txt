@@ -1,0 +1,13 @@
+ccxt
+ipykernel
+jupyter
+lightgbm
+matplotlib
+numpy
+pandas
+pyarrow
+python-docx
+scikit-learn
+TA-Lib
+torch
+xgboost

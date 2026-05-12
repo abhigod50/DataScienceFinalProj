@@ -1,0 +1,7 @@
+experiment,category,return_pct,sharpe_ratio,total_trades
+control_ml,control,-0.0,-0.02,52
+inventory_target_tuned,named_variant,0.002,0.156,54
+multilevel_profile,named_variant,-0.007,-0.616,79
+confidence_sizing,named_variant,-0.011,-0.935,52
+calibrated_probs,named_variant,-0.0,-0.02,52
+combined,named_variant,-0.043,-4.053,70

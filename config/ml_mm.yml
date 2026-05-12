@@ -1,0 +1,4 @@
+exchange: binanceus
+trading_pair: ETH-USDT
+trading_pairs_csv: ETH-USDT,BTC-USDT,SOL-USDT
+min_spread_floor: 0.0022

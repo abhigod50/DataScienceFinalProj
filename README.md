@@ -1,34 +1,4 @@
-# CS439 Final Project Submission Folder
 
-This directory is a standalone, submission-focused copy of the research pipeline from the larger trading workspace. It is scoped to offline data science work only: feature engineering, model training, walk-forward validation, backtesting, ablation experiments, and analysis.
-
-It does not require the rest of the `freqtrade` repository or any live Hummingbot services to run the core project workflow.
-
-## Included
-
-- Local market data snapshot for the main project pair universe:
-  - `data/binanceus/ETH_USDT-5m.feather`
-  - `data/binanceus/BTC_USDT-5m.feather`
-  - `data/binanceus/SOL_USDT-5m.feather`
-  - `data/coinbase/ETH_USD-5m.feather`
-- Cached microstructure features:
-  - `data/binanceus/orderbook/*`
-  - `data/execution/*`
-- Current promoted model artifacts:
-  - `models/latest/*`
-- Existing result files:
-  - `walk_forward_results.json`
-  - `backtest_results.json`
-  - `backtest_ab_results.json`
-  - `as_tuning_results.json`
-- Research scripts:
-  - `train.py`
-  - `backtest.py`
-  - `experiments.py`
-  - `update_data.py`
-  - `setup_doctor.py`
-- Baseline strategy:
-  - `baselines/EthDryRun.py`
 
 ## Project Layout
 
@@ -55,7 +25,7 @@ If you want to keep using the existing parent environment from `C:\freqtrade\.ve
 
 The wrappers are still portable when this folder is moved or extracted elsewhere. If neither a local `.venv` nor a parent `.venv` exists, they fall back to `python` on `PATH`.
 
-### 1. Sanity check the standalone folder
+### 1. Error check the standalone folder
 
 ```powershell
 pwsh ./scripts/run_setup_doctor.ps1
@@ -106,36 +76,8 @@ python update_data.py --exchange binanceus --days 60 --pairs ETH/USDT BTC/USDT S
 python update_data.py --exchange coinbase --days 60 --pairs ETH/USD
 ```
 
-## Notes For Submission
 
-- This folder is intended to be the clean GitHub repo root for the class project.
-- It is intentionally offline-only and reproducible.
-- The live trading and dashboard infrastructure from the original workspace has been excluded.
-- `config/ml_mm.yml` and `config/conf_fee_overrides.yml` are minimal local config files used only by the offline backtest/training utilities.
 
-## Editable Paper
-
-The main editable paper draft is:
-
-- `paper/final_paper.md`
-
-Supporting paper artifacts are:
-
-- `paper/results_snapshot.md`
-- `paper/rerun_notes.md`
-- `paper/figures/*`
-
-Export an editable Word document with:
-
-```powershell
-python ./paper/export_docx.py
-```
-
-Regenerate figures and the snapshot with:
-
-```powershell
-python ./paper/generate_paper_assets.py
-```
 
 ## Zip Portability
 
@@ -149,10 +91,3 @@ Verified commands from the extracted copy:
 
 For full details and caveats, see `ZIP_PORTABILITY.md`.
 
-## Recommended Paper Framing
-
-Use this folder to support a project framed around:
-
-`Do multi-horizon, regime-aware ML signals improve short-horizon crypto direction prediction and simulated market-making performance over simpler baselines?`
-
-That framing matches the included code and current result artifacts.
